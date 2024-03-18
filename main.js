@@ -34,12 +34,17 @@ let previous = document.getElementById("anterior");
 next.addEventListener("click", siguiente);
 previous.addEventListener("click", anterior);
 
+
+
 function comenzar() {
     intervalo = setInterval(siguiente,1000);
 }
 function parar() {
     clearInterval(intervalo);
 }
+
+
+
 
 let start = document.getElementById("play");
 let stop = document.getElementById("stop");
