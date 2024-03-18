@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 70vh;
+    margin-top: 10px;
+    background-image: url(/img/wands.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.slider{
+    height: 50vh;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    /* background-image: url(/img/callejon.jpg); */
+    background-size: cover;
+    background-position: center;
+    border: 5px solid rgba(255, 255, 255, 0.733);
+}
+
+.slider-inside{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+    left: 0;
+}
+.slider-inside2{
+    
+    display: flex;
+    justify-content: end;
+    
+    gap: 30px;
+    left: 0;
+    bottom: 15px;
+    
+    
+}
+
+.svg{
+    width: 120px;
+    height: 120px;
+    color: white;
+    
+}
+.svg2{
+    width: 80px;
+    height: 80px;
+}
+
+footer{
+    position: fixed;
+    bottom: 10px;
+}
