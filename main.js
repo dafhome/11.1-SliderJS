@@ -52,3 +52,4 @@ let stop = document.getElementById("stop");
 start.addEventListener("click",comenzar);
 stop.addEventListener("click",parar);
 
+
